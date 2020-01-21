@@ -1,0 +1,11 @@
+[package]
+name = "warp_example"
+version = "0.1.0"
+authors = ["enkhee-Osiris <enkhee.ag@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+pretty_env_logger = "0.4"
+tokio = { version = "0.2", features = ["full"] }
+warp = "0.2"
